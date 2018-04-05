@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">MerakiVendor</string>
+
+    <!--SignIn Screen-->
+    <string name="enter_email_id">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="btn_sign_in">Sign In</string>
+    <string name="txt_dont_hve_acnt">Don\&apos;t have an account?</string>
+    <string name="btn_sign_up">SignUp</string>
+
+    <string name="validate_login_screen">Please enter email id and password</string>
+    <string name="validate_email_id">Please enter valid email id </string>
+    <string name="validate_password">Please enter password </string>
+
+    <!--SignUp Screen-->
+    <string name="vendor_name">Vendor Name</string>
+    <string name="email_id">Email Id</string>
+    <string name="pin_code">Pin code</string>
+    <string name="file_name">File Name</string>
+    <string name="browse">Browse</string>
+    <string name="deals_in">Deals in</string>
+    <string name="password">Password</string>
+
+    <string name="validate_sign_up_screen">All fields are mandatory</string>
+    <string name="validate_vendor_name">Please enter vendor name</string>
+    <string name="validate_pin_code">Please enter pin code</string>
+    <string name="validate_deals_in">Please enter deals in</string>
+
+    <!--Purchase Activity-->
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit">Unit</string>
+    <string name="pay">Pay</string>
+
+</resources>
