@@ -13,6 +13,7 @@
         android:layout_marginEnd="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
+        android:gravity="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +51,8 @@
             android:layout_marginRight="10dp"
             android:inputType="textPersonName"
             android:hint="@string/vendor_name"
-            android:text="Name" />
+            android:textColorHint="@color/white_color"
+            android:textColor="@color/white_color"/>
 
         </android.support.design.widget.TextInputLayout>
 
@@ -71,6 +73,8 @@
             android:layout_marginRight="10dp"
             android:ems="10"
             android:hint="@string/email_id"
+            android:textColorHint="@color/white_color"
+            android:textColor="@color/white_color"
             android:inputType="textEmailAddress" />
         </android.support.design.widget.TextInputLayout>
 
@@ -90,6 +94,8 @@
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
             android:hint="@string/pin_code"
+            android:textColorHint="@color/white_color"
+            android:textColor="@color/white_color"
             android:ems="10"
             android:inputType="number" />
         </android.support.design.widget.TextInputLayout>
@@ -108,7 +114,9 @@
             android:layout_marginRight="10dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/file_name" />
+            android:hint="@string/file_name"
+            android:textColorHint="@color/white_color"
+            android:textColor="@color/white_color" />
 
         <ImageView
             android:id="@+id/imageView"
@@ -142,7 +150,9 @@
             android:layout_marginRight="10dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="@string/deals_in" />
+            android:hint="@string/deals_in"
+            android:textColorHint="@color/white_color"
+            android:textColor="@color/white_color"/>
 
         </android.support.design.widget.TextInputLayout>
 
@@ -163,6 +173,8 @@
             android:layout_marginLeft="10dp"
             android:ems="10"
             android:hint="@string/password"
+            android:textColorHint="@color/white_color"
+            android:textColor="@color/white_color"
             android:inputType="textPassword" />
 
         </android.support.design.widget.TextInputLayout>

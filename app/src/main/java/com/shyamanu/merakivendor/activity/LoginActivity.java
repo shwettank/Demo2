@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
          edtEmailId = (EditText) findViewById(R.id.editTextEmailAddress);
          edtPassword = (EditText) findViewById(R.id.editTextPassword);
          btnSignIn = (Button) findViewById(R.id.buttonSignIn);
-         btnSignUp = (Button) findViewById(R.id.buttonSignIn);
+         btnSignUp = (Button) findViewById(R.id.buttonSignUp);
     }
 
     private void addOnClickListener() {
@@ -65,6 +65,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 break;
 
             case R.id.buttonSignUp:
+                Intent intentProfileReg = new Intent(LoginActivity.this,SignUpActivity.class);
+                startActivity(intentProfileReg);
                 break;
 
             default:
@@ -83,8 +85,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             Toast.makeText(getApplicationContext(),getResources().getString(R.string.validate_password),Toast.LENGTH_SHORT).show();
         }else{
             // showCongratsDialog();
-            /*Intent intentProfileReg = new Intent(VerifyOTPActivity.this,RegistrationActivity.class);
-            startActivity(intentProfileReg);*/
+
+            Intent intentProfileReg = new Intent(LoginActivity.this,HomeActivity.class);
+            startActivity(intentProfileReg);
         }
     }
 }

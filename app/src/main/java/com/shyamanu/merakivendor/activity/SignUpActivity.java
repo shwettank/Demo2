@@ -1,5 +1,6 @@
 package com.shyamanu.merakivendor.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -101,8 +102,8 @@ public class SignUpActivity extends AppCompatActivity implements View.OnClickLis
             Toast.makeText(getApplicationContext(),getResources().getString(R.string.validate_password),Toast.LENGTH_SHORT).show();
         }else{
             // showCongratsDialog();
-            /*Intent intentProfileReg = new Intent(VerifyOTPActivity.this,RegistrationActivity.class);
-            startActivity(intentProfileReg);*/
+            Intent intentProfileReg = new Intent(SignUpActivity.this,HomeActivity.class);
+            startActivity(intentProfileReg);
         }
     }
 }

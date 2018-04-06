@@ -11,4 +11,10 @@
     <color name="btn_end_color">#0A505E</color>
     <color name="white_color">#FFFFFF</color>
     <color name="black_color">#000000</color>
+    <color name="text_color">#616161</color>
+
+    <!--Gradient color-->
+    <color name="gradient_start_color">#61ca92</color>
+    <color name="gradient_end_color">#50b892</color>
+    <color name="gray">#CCCCCC</color>
 </resources>

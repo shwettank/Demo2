@@ -84,6 +84,8 @@
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
                     android:ems="10"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/white_color"
                     android:hint="@string/enter_email_id"
                     android:inputType="textEmailAddress" />
             </android.support.design.widget.TextInputLayout>
@@ -103,6 +105,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="20dp"
+                    android:textColor="@color/white_color"
+                    android:textColorHint="@color/white_color"
                     android:ems="10"
                     android:hint="@string/enter_password"
                     android:inputType="numberPassword" />

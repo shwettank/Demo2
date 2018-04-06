@@ -12,6 +12,7 @@ import android.widget.TextView;
 
 import com.shyamanu.merakivendor.R;
 import com.shyamanu.merakivendor.activity.HomeActivity;
+import com.shyamanu.merakivendor.activity.PurchaseProductActivity;
 
 /**
  * Created by shwettank.ramteke on 4/5/2018.
@@ -57,8 +58,8 @@ public class MasonryAdapter extends RecyclerView.Adapter<MasonryAdapter.MasonryV
             public void onClick(View v) {
                 Log.e("Value",""+headerList[position]);
 
-                /*Intent productDetailIntent = new Intent(context, ProductDetailActivity.class);
-                context.startActivity(productDetailIntent);*/
+                Intent productDetailIntent = new Intent(context, PurchaseProductActivity.class);
+                context.startActivity(productDetailIntent);
 
             }
         });
